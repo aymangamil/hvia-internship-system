@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <radialGradient id="g1" cx="78%" cy="42%" r="48%"><stop offset="0" stop-color="#0a74d9" stop-opacity=".28"/><stop offset=".55" stop-color="#063366" stop-opacity=".12"/><stop offset="1" stop-color="#020914" stop-opacity="0"/></radialGradient>
+    <linearGradient id="g2" x1="0" x2="1"><stop stop-color="#020914"/><stop offset=".56" stop-color="#061425"/><stop offset="1" stop-color="#020914"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#1aa8ff" stroke-opacity=".055" stroke-width="1"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g2)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="1600" height="900" fill="url(#g1)"/>
+  <g transform="translate(1290 410)" fill="none" stroke="#2bc8ff" stroke-opacity=".22">
+    <circle r="260"/><circle r="215"/><circle r="168"/><ellipse rx="260" ry="90"/><ellipse rx="260" ry="150"/><ellipse rx="90" ry="260"/><ellipse rx="150" ry="260"/>
+  </g>
+  <g fill="none" stroke="#12b7ff" stroke-opacity=".22" filter="url(#glow)">
+    <path d="M0 740 C220 610 360 820 580 680 S930 560 1120 660 S1390 750 1600 590"/>
+    <path d="M0 780 C230 650 410 850 650 720 S980 610 1190 710 S1440 770 1600 650" stroke-opacity=".12"/>
+    <path d="M40 210 L290 210 L390 110"/>
+    <path d="M60 250 L320 250 L460 110" stroke-opacity=".11"/>
+  </g>
+  <g fill="#32d6ff">
+    <circle cx="980" cy="210" r="3" opacity=".8"/><circle cx="1080" cy="330" r="2" opacity=".6"/><circle cx="1240" cy="190" r="2" opacity=".65"/><circle cx="1440" cy="530" r="3" opacity=".7"/><circle cx="870" cy="690" r="2" opacity=".65"/>
+  </g>
+</svg>

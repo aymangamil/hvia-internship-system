@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset=".38" stop-color="#55baff"/><stop offset=".72" stop-color="#1677ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+  <text x="8" y="62" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="900" letter-spacing="7" fill="url(#g)">HVIA</text>
+  <text x="12" y="90" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="5" fill="#24c8ff">DATA &amp; AI SOLUTIONS</text>
+</svg>
